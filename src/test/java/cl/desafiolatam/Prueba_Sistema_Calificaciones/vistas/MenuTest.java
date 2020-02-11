@@ -106,6 +106,7 @@ public class MenuTest {
 		menuTest.agregarNotaPasoUno();
 		menuTest.cerrarScanner();
 		assertEquals(5f, menuTest.getAlumnoServicio().listarAlumnos().get("1").getMaterias().get(0).getNotas().get(0));
+//		TODO seguir pruebas
 	}
 	
 //	@Test
